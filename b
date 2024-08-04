@@ -70,3 +70,6 @@ git push 내가 수정한 파일 업로드하기
 4: git add .
 5: git commit -m '가지 추가'
 6: git push https://github.com/dkwooje/dkwooje.git 1234
+
+Pull requests -> Pull requests : 브런치 연결 하기(merge)
+
