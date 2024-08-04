@@ -81,3 +81,7 @@ git stash : 어떤 문장을 잘라서 다른곳에 저장
 5. git stash : 추가한 코드 잘라서 보관
 6. git stash list : 보관한 코드 리스트
 7. git stash save 'ccc라고 적음' : ''안의 문자로 제목을 붙여 저장
+8. git stash pop : 보관한 코드 불러오기
+9. // : 주석처리, 단 commit하면 반영된다.
+10. git stash drop 0 : 0번 코드 지우기
+11. git stash drop clear : 전부 삭제
