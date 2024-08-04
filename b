@@ -7,12 +7,12 @@ git log --oneline --all --graph
 * d2efd0a (HEAD -> main) 드디어1 //HEAD:현재 위치
 * 1c5194a (hitt, hit) initial commit
 
-git branch hit
-git switch hit
-git status
+브런치 생성 : git branch hit
+브런치 바꾸그 :git switch hit
+브런치 상태보기: git status
 
 
-git merge hit
+브런치 병합하기 : git merge hit
 
 fatal: not a valid object name: 'main'
 //해결법
