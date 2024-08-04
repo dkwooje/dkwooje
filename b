@@ -73,3 +73,11 @@ git push 내가 수정한 파일 업로드하기
 
 Pull requests -> Pull requests : 브런치 연결 하기(merge)
 
+git stash : 어떤 문장을 잘라서 다른곳에 저장
+1.git init
+2. git add .
+3. git commit -m '어쩌구'
+4. code 추가 후 save
+5. git stash : 추가한 코드 잘라서 보관
+6. git stash list : 보관한 코드 리스트
+7. git stash save 'ccc라고 적음' : ''안의 문자로 제목을 붙여 저장
