@@ -62,4 +62,11 @@ git push 내가 수정한 파일 업로드하기
 그러땐 먼저 pull로 다운 받고나서 push로 업로드 해야한다.
 
 브랜치 만들기 : 1. 홈페이지에서 브렌치 아이콘 누르고 바로 만들기
+
 2.
+1: git init
+2: git branch 1234
+3: git switch 1234   
+4: git add .
+5: git commit -m '가지 추가'
+6: git push https://github.com/dkwooje/dkwooje.git 1234
