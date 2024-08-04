@@ -11,3 +11,9 @@ gitflow전략 : git이 서로 꼬이는 걸 방지하고 효율적으로 활용�
 5. hotfix: release의 완성형이 main과 적용 후 에러가 발생하면,
 다시 bevelop으로 가지않고 새로 hotfix branch를 만들어 수정하고,
  branch와 main과 연동한다.
+
+
+trunk-based :브랜치 하나만 잘 관리하는 전략
+1.main 2.branch 여러개 3.배포
+장점 :소스코드 한 곳에서 관리
+단점: 많은 테스트
