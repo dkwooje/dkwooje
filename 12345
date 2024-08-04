@@ -1,0 +1,13 @@
+gitflow전략 : git이 서로 꼬이는 걸 방지하고 효율적으로 활용하기 위한 시스템
+1.main 2.develop 3.feature 4.release 5.hotfix
+
+1. main
+2. develop branch: branch
+3. featur branch: develop branch의 보조.
+ featur branch에서 만들고 안정성 확인 후 develop branch에 적용
+4. release :develop beanch가 안정화 되기 전단계. 
+ 완성된 develop beanch가 혹시모를 에러에 대비해 만든 단계.
+ 여기서 최종 수정 후 main에적용
+5. hotfix: release의 완성형이 main과 적용 후 에러가 발생하면,
+다시 bevelop으로 가지않고 새로 hotfix branch를 만들어 수정하고,
+ branch와 main과 연동한다.
